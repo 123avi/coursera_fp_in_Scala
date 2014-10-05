@@ -1,5 +1,7 @@
 package objsets
 
+import java.util.NoSuchElementException
+
 import common._
 import TweetReader._
 
@@ -66,7 +68,7 @@ abstract class TweetSet {
    * Question: Should we implment this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-  def mostRetweeted: Tweet = ???
+  def mostRetweeted: Tweet
 
   /**
    * Returns a list containing all tweets of this set, sorted by retweet count
@@ -114,7 +116,7 @@ class Empty extends TweetSet {
 
   def union(that: TweetSet): TweetSet = that
 
-
+  def mostRetweeted: Tweet = throw new NoSuchElementException
 
   /**
    * The following methods are already implemented
@@ -138,7 +140,20 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
   def union(that: TweetSet): TweetSet = ((left union right)union that) incl(elem)
 
+  def mostRetweeted: Tweet = {
+    if (elem.retweets > getMostRetweeted(left) && elem.retweets > getMostRetweeted(right)) elem
+    else if (getMostRetweeted(left) > getMostRetweeted(right) ) left.mostRetweeted
+    else right.mostRetweeted
+  }
 
+  def getMostRetweeted(ts:TweetSet):Int ={
+    try {
+      ts.mostRetweeted.retweets
+    }catch{
+      case e:NoSuchElementException => 0
+      case e => throw e
+    }
+  }
 
   /**
    * The following methods are already implemented

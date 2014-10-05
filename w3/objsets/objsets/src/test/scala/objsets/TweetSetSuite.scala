@@ -16,6 +16,8 @@ class TweetSetSuite extends FunSuite {
     val set4c = set3.incl(c)
     val set4d = set3.incl(d)
     val set5 = set4c.incl(d)
+    val set6 = set1.incl(d)
+    val set7 = set1.incl(c)
   }
 
   def asSet(tweets: TweetSet): Set[Tweet] = {
@@ -25,6 +27,12 @@ class TweetSetSuite extends FunSuite {
   }
 
   def size(set: TweetSet): Int = asSet(set).size
+
+  test ("mostRetweeted "){
+    new TestSets {
+      assert(set6.mostRetweeted.retweets > set7.mostRetweeted.retweets)
+    }
+  }
 
   test("filter: on empty set") {
     new TestSets {

@@ -23,24 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TweetSetSuite.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/objsets/TweetSetSuite.scala">
+      <file leaf-file-name="TweetSet.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1258">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="28" />
-              <folding />
+            <state vertical-scroll-proportion="0.4100877" vertical-offset="2363" max-vertical-offset="3910">
+              <caret line="150" column="31" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
+              <folding>
+                <element signature="e#17#56#0" expanded="true" />
+                <element signature="e#5530#5534#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetSet.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
+      <file leaf-file-name="TweetSetSuite.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/objsets/TweetSetSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63377196" vertical-offset="2023" max-vertical-offset="3638">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-              <folding>
-                <element signature="e#5019#5023#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="1394">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/objsets/TweetSetSuite.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/objsets/TweetSetSuite.scala" />
       </list>
     </option>
   </component>
@@ -570,12 +571,12 @@
       <changelist id="7130652f-2479-4c1f-9e7b-bab2499af5ef" name="Default" comment="" />
       <created>1412420619473</created>
       <updated>1412420619473</updated>
-      <workItem from="1412420623758" duration="6291000" />
+      <workItem from="1412420623758" duration="10095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6291000" />
+    <option name="totallyTimeSpent" value="10095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -641,18 +642,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/scala/objsets/TweetSetSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1258">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="1394">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63377196" vertical-offset="2023" max-vertical-offset="3638">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4100877" vertical-offset="2363" max-vertical-offset="3910">
+          <caret line="150" column="31" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
           <folding>
-            <element signature="e#5019#5023#0" expanded="true" />
+            <element signature="e#17#56#0" expanded="true" />
+            <element signature="e#5530#5534#0" expanded="true" />
           </folding>
         </state>
       </provider>
