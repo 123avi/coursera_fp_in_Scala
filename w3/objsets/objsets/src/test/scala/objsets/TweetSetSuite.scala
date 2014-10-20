@@ -58,6 +58,13 @@ class TweetSetSuite extends FunSuite {
     }
   }
 
+  test("filter: 7 on set5") {
+    new TestSets {
+      val f = set5.filter(tw => tw.retweets == 7)
+      assert(size(set5.filter(tw => tw.retweets == 7)) === 1)
+    }
+  }
+
   test("union: set4c and set4d") {
     new TestSets {
       assert(size(set4c.union(set4d)) === 4)
